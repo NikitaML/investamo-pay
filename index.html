@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/office.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container-wrap">
+        <div class="payment">
+            <div class="payment__step payment__step_one">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="white-box ">
+                            <div class="box-body box-body_big">
+                                <h3 class="box-title">
+                                    <div class="">
+                                        ZYX
+                                    </div>
+                                </h3>
+                                <div class="payment-form">
+                                    <input id="input-one" class="payment-form__input " type="text"
+                                        placeholder="Importe">
+                                    <input id="input-two" class="payment-form__input" type="text"
+                                        placeholder="Costo(USD)">
+                                    <button id="submit-level-1"
+                                        class="payment-form__button payment-form__button_green">Compar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment__step payment__step_two">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="white-box">
+                            <div class="box-body">
+                                <h3 class="box-title">
+                                    <div class="">
+                                        ELIGA EL METODO DE PAGA
+                                    </div>
+                                </h3>
+                                <div class="payment-cards">
+
+                                    <div class="payment-cards__item">
+                                        <div class="payment-cards__active">
+                                            <div class="payment-card payment-card_lightblue" data-def="1"
+                                                data-title="CRIPTO" data-img="img/sprite.svg#coins">
+                                                <div class="payment-card__title">
+                                                    <span>CRIPTO</span>
+                                                </div>
+                                                <div class="payment-card__icon">
+                                                    <svg class="icon">
+                                                        <use xlink:href="img/sprite.svg#coins"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="payment-cards__list">
+                                            <div class="payment-card payment-card_lightblue" data-type="cripto">
+                                                <div class="payment-card__title">
+                                                    <span>usdt</span>
+                                                </div>
+                                                <div class="payment-card__icon">
+                                                    <img class="card-i" src="img/t.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="payment-cards__item">
+                                        <div class="payment-cards__active">
+                                            <div class="payment-card payment-card_orange" data-def="1"
+                                                data-title="billetera" data-img="img/sprite.svg#credit-card">
+                                                <div class="payment-card__title">
+                                                    <span>billetera</span>
+                                                </div>
+                                                <div class="payment-card__icon">
+                                                    <svg class="icon">
+                                                        <use xlink:href="img/sprite.svg#credit-card"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="payment-cards__list">
+                                            <div class="payment-card payment-card_orange" data-type="billetera">
+                                                <div class="payment-card__title">
+                                                    <span>PAYEER</span>
+                                                </div>
+                                                <div class="payment-card__icon">
+                                                    <img class="card-i" src="img/payeer.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="payment-cards__item payment-cards__item_blue">
+                                        <div class="payment-cards__active">
+                                            <div class="payment-card payment-card_blue" data-def="1" data-title="fiat"
+                                                data-img="img/sprite.svg#payment-terminal">
+                                                <div class="payment-card__title">
+                                                    <span>fiat</span>
+                                                </div>
+                                                <div class="payment-card__icon">
+                                                    <svg class="icon">
+                                                        <use xlink:href="img/sprite.svg#payment-terminal"></use>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="payment-cards__list">
+                                            <div class="payment-card payment-card_blue" data-type="fiat">
+                                                <div class="payment-card__title">
+                                                    <span>TARJETA CREDITO</span>
+                                                </div>
+                                                <div class="payment-card__icon">
+                                                    <img class="card-i" src="img/visa.png" alt="">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="payment__step payment__step_three">
+                <div class="row">
+                    <div class="col-md-12">
+
+                        <div class="white-box">
+                            <div class="box-body">
+                                <!-- <div class="row"> -->
+                                <div class="payment-replenishment">
+                                    <div class="payment-requisites">
+                                        <h3 class="box-title">
+                                            <div>
+                                                recargau cuenta mediante <br>
+                                                <span class="box-title__sub">POR FAVOR REALIZE LA TRANSFERENCIA A
+                                                    SIGUENTA NUMERO DE CUENTA
+                                                </span>
+                                            </div>
+                                            <div class="actions">
+                                                <button class="payment-form__button payment-form__button_blue"
+                                                    id="method">Cripto</button>
+                                            </div>
+
+
+                                        </h3>
+                                        <div class="payment-requisites__transfer">
+
+                                            <input id="input-three"
+                                                class="payment-form__input payment-form__input_transfer" type="text"
+                                                placeholder="1234567890">
+                                            <div class="payment-requisites__logo">
+                                                <!-- <img src="img/t.png" alt=""> -->
+                                                <div class="payment-requisites__logo-img"
+                                                    style="background-image: url(img/t.png);" id="ico"></div>
+                                            </div>
+                                        </div>
+
+                                        <div class="">
+                                            <span>POR FAVOR REALIZE LA TRANSFERENCIA A SIGUENTA NUMERO DE CUENTA
+                                            </span>
+                                        </div>
+                                        <textarea id="input-four" class="payment-requisites__number"></textarea>
+                                    </div>
+                                    <div class="payment-result">
+                                        <div class="payment-result__block payment-result__block_receive">
+                                            <span class="block__label">Importe a recibir</span>
+                                            <input id="input-five" class="block__input  payment-form__input "
+                                                type="text" placeholder="12345.00">
+                                            <span class="block__value">ZYX</span>
+                                        </div>
+                                        <div class="payment-result__block payment-result__block_commision">
+                                            <span class="block__label">Comisión</span>
+                                            <input class="block__input  payment-form__input " type="text"
+                                                placeholder="0.00">
+                                            <span class="block__value">USD</span>
+                                        </div>
+                                        <div class="payment-result__block payment-result__block_sum">
+                                            <span class="block__label block__label_sum">Importe a pagar</span>
+                                            <input class="block__input block__input_sum payment-form__input "
+                                                type="text" placeholder="0.00">
+                                            <span class="block__value">USD</span>
+                                        </div>
+                                        <div id="submit-level-3" class="payment-result__submit">
+                                            <button>Nice el pago
+                                                <span></span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="payment-modal">
+        <div class="payment-modal__inner">
+            <div class="payment-modal__content">
+                <div class="payment-modal__success">
+                    Gracias por su compra
+                </div>
+                <button class="payment-modal__btn">
+                    OK
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
